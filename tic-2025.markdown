@@ -1,0 +1,108 @@
+---
+title: Pla TIC 2025
+lang: catalan
+mainfont: Ubuntu
+papersize: a4paper
+fontsize: 12pt
+header-includes:
+    - \renewcommand*{\familydefault}{\sfdefault}
+
+---
+## Preàmbul
+
+Aquest text és una proposta per a la gestió municipal de les TIC,
+tecnologies de la informació i la comunicació,
+per fer-les accessibles, efectives,
+participatives, ètiques,
+i lliures de lligadures amb proveïdors.
+
+Tot i que l'escrit s'ha redactat a propòsit per Sant Joan Despí,
+la redacció és prou genèrica per reutilitzar-ho a d'altres municipis.
+
+## Context
+
+En en mercat de les tecnologies de la informació i la comunicacio (TIC)
+són tristament comuns les relacions client-proveïdor en mode de dependència.
+Aquesta situació de segrest es dóna quan el fet de canviar de proveïdor
+força un canvi de solució tecnològica amb els costos que això comporta,
+evitant que altres proveïdors entrin en competència.
+Un cop establerta aquesta relació asimètrica, el proveïdor pot imposar
+preus, modificacions de llicències, polítiques d'actualitzacións
+o pot reduïr la qualitat del seu servei sense témer perdre el contracte...
+Si el client és una administració pública, com ara un ajuntament,
+els diners que es gasten són dels ciutadans,
+i el curt-placisme electoral tendeix a deixar-se portar per la pressió comercial
+i arguments falaços de les grans empreses tecnològiques que van buscant aquest tipus de lligadures.
+
+Hi ha diversos mitjans que es fan servir per establir aquests lligams:
+Les llicències privatives,
+la propietat de les xarxes de comunicació,
+les patents i
+els formats tancats.
+Hi ha una altra manera de funcionar:
+amb llicències lliures,
+desenvolupaments i estandards oberts
+i xarxes de comuns.
+Les administracións poden incloure aquests condicionants
+als plecs de condicions que els seus proveïdors haurien d'acomplir,
+obrint els futurs contractes a petites i mitjanes empreses,
+i fins i tot ciutadans voluntaris, que podrien col·laborar en millorar les TIC del municipi.
+Permetria també que els municipis comparteixin entre ells els fruits de les seves inversions individuals en TIC.
+
+## Conceptes clau
+
+A continuació aprofondim una mica en aquestes noves formes de funcionar:
+
+Les **llicències lliures** s'apliquen al programari i altres creacions intelectuals.
+Donen als usuaris les llibertats de fer servir, modificar i redistribuir les creacions intelectuals,
+normalment amb la condició de que qui modifiqui i distribueixi ho faci donant les mateixes llibertats.
+Considerem llicencies lliures les que estan certificades com a tals per la OSI (Open Source Initiative).
+Aquest model col·laboratiu ha donat peu al naixement i creixement de solucions tecnològiques
+que avui dia estan a la gran majoria dels nostres mòbils i servidors.
+Exigir que el programari que s'instauri a l'administracio tinqui aquest tipus de llicencia
+implica que qualsevol proveïdor, i fins i tot ciutadans voluntaris,
+tindrien accés al codi del programari i podria proposar millores i extensions,
+ampliant la confluència de proveïdors i millorant la relació qualitat preu.
+
+Els **estàndars oberts** permeten la interoperabilitat entre diferents proveïdors.
+S'apliquen a formats de documents, protocols de comunicació, intercanvi de dades entre sistemes...
+En estar documentats, no incloure patents ni estar subjectes a cobrament de royalties,
+permeten als ciutadans accedir-hi sense exigir-los la compra d'un programari privatiu,
+donat que normalment existeix programari lliure que el pot obrir.
+
+La **xarxa de comuns** és una xarxa de telecomunicacions lliure, oberta i neutral
+que permet a qualsevol ciutadà afegir un node per connectarse als altres nodes de la xarxa
+amb la condició que aquest nou node permeti també la connexió als altres nodes que vinguin després.
+Aquesta xarxa de comuns té el seu major exponent amb la xarxa Guifi.net a la comarca d'Osona i que s'ha estés arreu de l'estat.
+Aquesta xarxa ha permés que ens saltem les limitacions artificials
+que imposen les grans companyies a les seves xarxes d'accés privatives i que ens retènen en el passat tecnològic.
+Per exemple, cada fibra òptica té capacitat per 1Gb simètric de dades reals,
+i les ofertes de les companyies es limiten artificialment al millor dels casos a 100Mb de baixada i a 1Mb de pujada
+que és el que els forcen la llei a oferir a la competència.
+Allà on hi ha fibra en comuns, els usuaris disfruten de tot el que pot donar el medi, és a dir, d'un Giga simètric.
+
+Les **dades obertes (open-data)** és el concepte de que la publicació de les dades no personals que té l'administració
+sense digerir però en fomats oberts i sense restriccions,
+fa que els ciutadans i les empreses trobin maneres de revaloritzar-les sense cost extra per la administració.
+És un concepte que han començar a aplicar tant la Generalitat com l'Ajuntament de Barcelona
+i que ha tingut efecte inmediat amb serveis de valor afegit pels ciutadans i per la mateixa administració que els publica.
+
+## Propostes
+
+Introduïts aquests conceptes, les nostres propostes són:
+
+1. Que l'ajuntament rellicencii i publiqui tot el programari que sigui propietat intelectual de l'Ajuntament sota llicencies lliures.
+1. Que els futurs plecs de condicions dels contractes per programari de l'ajuntament exigeixin:
+	a) que les noves solucions es basin en programari lliure i no en programari privatiu
+	a) que qualsevol desenvolupament nou o evolutiu que es faci sobre aquestes solucions ha d'estar llicenciat amb una llicencia lliure.
+1. Migrar els llocs de treball depenents de l'ajuntament a programari lliure (sistema operatiu, ofimatica...)
+1. Que les comunicacions amb els ciutadans es facin per ordenança en formats oberts que es puguin llegir amb programes sense royalties.
+1. Que  els recursos que es generin des de l'ajuntament (art, dades, plànols,  tipus de lletra...) es publiquin sota una llicencia CC que permeti  fer-ne derivats tot respectant la autoría original i, en el cas de les dades, la seva traçabilitat.
+1. Que les dades numèriques publicades es publiquin en formats oberts i treballables (per exemple, un PDF sense contrassenya sería obert però no és treballable).
+1. Que a les accions de formació que s'impulsin des de l'Ajuntament no es promoguin tecnologies privatives, sinó lliures.
+1. Que s'impulsi una xarxa neutra de comunicacions de fibra òptica que no ens posi a les mans en forma de monopoli físic d'una operadora.
+1. Facilitar que els mateixos ciutadans puguin estendre xarxa de comuns pròpia tant amb elements de Wi-Fi com amb fibra òptica.
+1. Participar de forma activa en la promoció de cooperatives d'usuaris de telecomunicacions ètiques com ara Eticom.
+1. Que l'ajuntament defensi el dret de les comunitats de propietaris a no permetre que s'els instal·lin a les seves façanes i terrats antenes de telefonia o cables privatives, sempre que no siguin necessaries pel servei bàsic d'un dels usuaris de la finca.
+
+
